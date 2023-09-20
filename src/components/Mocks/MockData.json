@@ -1,0 +1,99 @@
+{
+    "card": {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+                "id": "31709",
+                "name": "A2B - Adyar Ananda Bhavan",
+                "cloudinaryImageId": "ev5guv3zjjdecvvmwgvi",
+                "locality": "200 ft Road",
+                "areaName": "Pallikaranai",
+                "costForTwo": "₹300 for two",
+                "cuisines": [
+                    "South Indian",
+                    "North Indian",
+                    "Sweets",
+                    "Chinese"
+                ],
+                "avgRating": 4.3,
+                "veg": true,
+                "feeDetails": {
+                    "restaurantId": "31709",
+                    "fees": [
+                        {
+                            "name": "BASE_DISTANCE",
+                            "fee": 6600
+                        },
+                        {
+                            "name": "BASE_TIME"
+                        },
+                        {
+                            "name": "ANCILLARY_SURGE_FEE"
+                        }
+                    ],
+                    "totalFee": 6600
+                },
+                "parentId": "22",
+                "avgRatingString": "4.3",
+                "totalRatingsString": "10K+",
+                "promoted": true,
+                "adTrackingId": "cid=8240494~p=1~eid=0000018a-980d-4aa6-5493-c35e00ee017e~srvts=1694768122534~83646",
+                "sla": {
+                    "deliveryTime": 36,
+                    "lastMileTravel": 6.6,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "36 mins",
+                    "lastMileTravelString": "6.6 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2023-09-15 22:45:00",
+                    "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "textBased": {},
+                        "imageBased": {},
+                        "textExtendedBadges": {}
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "₹125 OFF",
+                    "subHeader": "ABOVE ₹249",
+                    "discountTag": "FLAT DEAL"
+                },
+                "orderabilityCommunication": {
+                    "title": {},
+                    "subTitle": {},
+                    "message": {},
+                    "customIcon": {}
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+                "link": "swiggy://menu?restaurant_id=31709&source=collection&query=South%20Indian",
+                "text": "RESTAURANT_MENU",
+                "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+        },
+        "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+        }
+    }
+}
