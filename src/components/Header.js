@@ -1,8 +1,6 @@
-import { useState , useContext, useEffect} from 'react';
+import { useEffect} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
-import UserContext from '../utils/UserContext';
-
 import logo from "../../assets/logo.png";
 import cartLogo from "../../assets/cart-icon.png"
 import { removeUser} from "../utils/cartSlice";
@@ -24,43 +22,35 @@ const Header = () => {
     return  (
     <div className="header">
         <div className="logo">
-          <img src= {logo} className="logo"
-            alt="logo"  />
+        <Link  className="link"  to="/main"><img src= {logo} className="logo"
+            alt="logo"  /></Link>
         </div>
         <div className="nav-items">
-            <ul>
-               {user.length !==0 ?
-                <li>
-                    <Link  className="link"  to="/cart">
-                    <img src= {cartLogo} className="cart-logo"
-                        alt="cart-Icon"  /> 
-                        <sup className='total-items'>{cartItems.length} </sup>
-                    </Link>
-                </li> :<></> }
-                <li> 
-                    <Link className="link" to="/about">About</Link>
-                </li>
-                <li>
-                    <Link  className="link"  to="/contact">contact us </Link>
-                </li>
-                
-                {user.length !==0 ? <li>
-                    <div className='username'> {user[0].displayName}</div>
-                </li> : <></>
-                }
-                
-                {user.length !==0 ?
+            {user.length !==0 ?
+                <ul>
+                    <li>
+                        <Link  className="link"  to="/cart">
+                        <img src= {cartLogo} className="cart-logo"
+                            alt="cart-Icon"  /> 
+                            <sup className='total-items'>{cartItems.length} </sup>
+                        </Link>
+                    </li> 
+                    <li> 
+                        <Link className="link" to="/about">About</Link>
+                    </li>
+                    <li>
+                        <Link  className="link"  to="/contact">contact us </Link>
+                    </li> 
+                    <li>
+                        <div className='username'> {user[0].displayName}</div>
+                    </li>
                     <li>
                         <button className='login-btn' onClick={logout}>Logout</button>
-                    </li> : <> </>}
-               </ul>
-            
-            
-        </div>
-        
+                    </li> 
+                </ul>   
+                :<></> }
+            </div>
     </div>
 );
 }
-
-
 export default Header;
