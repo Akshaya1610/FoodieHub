@@ -22,8 +22,12 @@ const Header = () => {
     return  (
     <div className="header">
         <div className="logo">
-        <Link  className="link"  to="/main"><img src= {logo} className="logo"
-            alt="logo"  /></Link>
+        {user.length !==0 ?
+            <Link  className="link"  to="/main"><img src= {logo} className="logo" alt="logo"  />
+            </Link>
+            :<Link  className="link"  to="/"><img src= {logo} className="logo" alt="logo"  />
+            </Link>
+        }
         </div>
         <div className="nav-items">
             {user.length !==0 ?
