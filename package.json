@@ -4,6 +4,7 @@
   "description": "practice project from scratch",
   "scripts": {
     "start": "parcel index.html",
+    "json-server" : "json-server --watch db.json",
     "prod": "parcel build index.html",
     "test": "jest",
     "watch-test" :"jest --watch"
