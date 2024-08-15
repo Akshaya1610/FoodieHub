@@ -22,6 +22,7 @@ const Main = () => {
         const newJson = json?.data?.cards.slice(3);
          setListOfrestaurants(newJson)
          setFilteredRestaurant(newJson)
+         console.log(json)
     }
    
     if(listOfRestaurants?.length === 0){

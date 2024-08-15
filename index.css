@@ -66,6 +66,7 @@
     display: flex;
     justify-content: center;
     font-weight: 700;
+    margin-top: 200px;
 }
 
 /* The article fills all the space between header & footer */

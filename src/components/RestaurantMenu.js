@@ -12,13 +12,12 @@ const RestaurantMenu = () => {
     if(resInfo === null){
         return <Shimmer></Shimmer>
     }
-    
-    const {name, cuisines,locality,avgRating,totalRatingsString,areaName} = resInfo.data?.cards[0]?.card.card?.info
+    const {name, cuisines,locality,avgRating,totalRatingsString,areaName} = resInfo.data?.cards[2]?.card.card?.info
 
-    const nestedCategory = resInfo.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
+    const nestedCategory = resInfo.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
         c => c.card?.card?.["@type"] === 
             "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory")
-    const itemCategory = resInfo.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
+    const itemCategory = resInfo.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
         c => c.card?.card?.["@type"] === 
             "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory")
 

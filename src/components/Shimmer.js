@@ -11,7 +11,28 @@ const Shimmer = () =>{
                 <button className="top-rated-btn"></button>
             </div>
             <div className="shimmer-card-container">
-                <div class="shimmer-card">
+                <div className="shimmer-card">
+                    <img className="shimmer-content-image"/>
+                    <h3 className="shimmer-content"></h3>
+                    <h3 className="shimmer-content"></h3>
+                    <h3 className="shimmer-content"></h3>
+                    <h3 className="shimmer-content"></h3>
+                </div>
+                <div className="shimmer-card">
+                    <img className="shimmer-content-image"/>
+                    <h3 className="shimmer-content"></h3>
+                    <h3 className="shimmer-content"></h3>
+                    <h3 className="shimmer-content"></h3>
+                    <h3 className="shimmer-content"></h3>
+                </div>
+                <div className="shimmer-card">
+                    <img className="shimmer-content-image"/>
+                    <h3 className="shimmer-content"></h3>
+                    <h3 className="shimmer-content"></h3>
+                    <h3 className="shimmer-content"></h3>
+                    <h3 className="shimmer-content"></h3>
+                </div>
+                <div className="shimmer-card">
                     <img className="shimmer-content-image"/>
                     <h3 className="shimmer-content"></h3>
                     <h3 className="shimmer-content"></h3>
@@ -25,49 +46,28 @@ const Shimmer = () =>{
                     <h3 className="shimmer-content"></h3>
                     <h3 className="shimmer-content"></h3>
                 </div>
-                <div class="shimmer-card">
+                <div className="shimmer-card">
                     <img className="shimmer-content-image"/>
                     <h3 className="shimmer-content"></h3>
                     <h3 className="shimmer-content"></h3>
                     <h3 className="shimmer-content"></h3>
                     <h3 className="shimmer-content"></h3>
                 </div>
-                <div class="shimmer-card">
+                <div className="shimmer-card">
                     <img className="shimmer-content-image"/>
                     <h3 className="shimmer-content"></h3>
                     <h3 className="shimmer-content"></h3>
                     <h3 className="shimmer-content"></h3>
                     <h3 className="shimmer-content"></h3>
                 </div>
-                <div class="shimmer-card">
+                <div className="shimmer-card">
                     <img className="shimmer-content-image"/>
                     <h3 className="shimmer-content"></h3>
                     <h3 className="shimmer-content"></h3>
                     <h3 className="shimmer-content"></h3>
                     <h3 className="shimmer-content"></h3>
                 </div>
-                <div class="shimmer-card">
-                    <img className="shimmer-content-image"/>
-                    <h3 className="shimmer-content"></h3>
-                    <h3 className="shimmer-content"></h3>
-                    <h3 className="shimmer-content"></h3>
-                    <h3 className="shimmer-content"></h3>
-                </div>
-                <div class="shimmer-card">
-                    <img className="shimmer-content-image"/>
-                    <h3 className="shimmer-content"></h3>
-                    <h3 className="shimmer-content"></h3>
-                    <h3 className="shimmer-content"></h3>
-                    <h3 className="shimmer-content"></h3>
-                </div>
-                <div class="shimmer-card">
-                    <img className="shimmer-content-image"/>
-                    <h3 className="shimmer-content"></h3>
-                    <h3 className="shimmer-content"></h3>
-                    <h3 className="shimmer-content"></h3>
-                    <h3 className="shimmer-content"></h3>
-                </div>
-                <div class="shimmer-card">
+                <div className="shimmer-card">
                     <img className="shimmer-content-image"/>
                     <h3 className="shimmer-content"></h3>
                     <h3 className="shimmer-content"></h3>
