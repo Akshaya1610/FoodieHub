@@ -17,7 +17,7 @@ const Login = () => {
     const toggleClass = () =>{
         setSignInForm(!isSignInForm)
     }
-    validateFormData = () => {
+    const validateFormData = () => {
         if (userId.current?.value.length  === 0 ) {
             setErrorMessage("please fill mandatory field");
             return
