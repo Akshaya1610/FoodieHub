@@ -14,7 +14,7 @@ const Header = () => {
     const user = useSelector((store) => store.cart.users);
     useEffect(()=>{},[user])
     
-    logout = () => {
+   const  logout = () => {
         dispatch(removeUser());
         navigate("/")
     }

@@ -13,7 +13,8 @@ const Login = () => {
     const userId = useRef(null);
     const password =  useRef(null);
     const name=  useRef(null);
-    toggleClass = () =>{
+
+    const toggleClass = () =>{
         setSignInForm(!isSignInForm)
     }
     validateFormData = () => {
